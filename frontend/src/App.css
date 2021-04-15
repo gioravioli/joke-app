@@ -1,0 +1,58 @@
+.RefreshButton {
+  margin-top: 10px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  font-size: large;
+  padding: 8px;
+  background-color: #5bc0de;
+}
+
+.Title {
+  padding-left: 4px;
+}
+
+table.JokeList {
+  table-layout: fixed;
+  padding-left: 8px;
+}
+
+.JokeList tr:nth-child(odd) {
+  background-color: #e8e8e8;
+}
+
+.JokeList tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.Joke td {
+  padding: 8px;
+}
+
+.Joke td.Content {
+  width: 600px;
+}
+
+.Joke td.UpButton, td.DownButton {
+  width: 60px;
+  text-align: center;
+  font-size: small;
+}
+
+.Joke button {
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.Joke .UpButton button {
+  background-color: #5cb85c;
+}
+
+.Joke .DownButton button {
+  background-color: #f0ad4e;
+}
